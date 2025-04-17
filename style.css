@@ -179,9 +179,9 @@
   
   
   .card a:hover {
-    color: #0084ff; 
-    border-color: #aec6cf; 
-    background-color: #f0f4f8; 
+    background-color: #8c9ca6;
+    color: #fff;
+    border-color: #8c9ca6;
   }
   
   @keyframes fadeUp {
@@ -219,9 +219,8 @@
   }
   
   .resume .btn:hover {
-    background-color: #f0f4f8;
-    border-color: #aec6cf;
-    color: #007bff;
+    background-color: #8c9ca6;
+    color: #fff;
   }
 
   /*contact me*/
@@ -241,9 +240,8 @@
   }
   
   .contact .btn:hover {
-    background-color: #f0f4f8;
-    border-color: #aec6cf;
-    color: #007bff;
+    background-color: #8c9ca6;
+    color: #fff;
   }
 
   /*footer*/
@@ -265,7 +263,7 @@
   }
   
   .footer .footer-link:hover {
-    color: #007bff;  
+    color: #fff; 
     transform: scale(1.1); 
   }
   
@@ -286,6 +284,25 @@
       background-position: 0% 50%;
     }
   }
+
+  /* Button Styling for 'View More Projects' */
+.btn-view-more {
+  color: #aec6cf; 
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  border-color:#ccc;
+  border-radius: 25px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-view-more:hover {
+  background-color: #8c9ca6;
+  color: #fff;
+}
+
   
 
   
