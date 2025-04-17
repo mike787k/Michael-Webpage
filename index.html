@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is Michael</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <!-- Section for the main header -->
+    <section id="title" class="gradient-background">
+      <div class="container">
+        <div class="d-flex align-items-center justify-content-center" style="height: 300px;">
+          <h1 class="display-5 fw-bold text-white text-center">Welcome to Michael's Webpage!</h1>
+        </div>
+      </div>
+    </section>
+  
+    
+    <!-- Section for Profile Picture and small bio -->
+     <section id="profile-picture" class="profile-picture">
+      <div class="px-4 py-5 my-5 text-center">
+        <img class="profile-img mb-4" src="./images/temp.png" alt="profile picture">
+        <h2 class="display-5 fw-bold text-body-emphasis mb-4">Hello!</h2>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead">My name is Michael and I'm a programmer with a foundation in software development. I am currently exploring the different and vast options in the tech industry!</p>
+          
+          <!-- New paragraph for hobbies with fade-up animation -->
+          <p class="hobby-text fade-up">Outside of programming, some of my passions are: powerlifting, combat sports, climbing, photography, poetry, and cafe-hopping!</p>
+          
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center"></div>
+        </div>
+      </div>
+    </section>
+    
+
+  <hr class="section-divider">
+
+    <!-- Section for list of skills -->
+     <section id="skills" class="skills">
+      <div class="px-4 py-5 my-5 text-center">
+        <h2 class="display-5 fw-bold text-body-emphasis mb-4">My Skills</h2>
+        <div class="col-lg-8 mx-auto">
+          <p class="lead">Here's a list of languages and frameworks I can use:</p>
+    
+          <!-- Languages Section -->
+          <div class="skills-group">
+            <h4 class="skills-subtitle">Languages</h4>
+            <ul class="skills-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Python</li>
+            </ul>
+          </div>
+    
+          <!-- Frameworks Section -->
+          <div class="skills-group">
+            <h4 class="skills-subtitle">Frameworks</h4>
+            <ul class="skills-list">
+              <li>React</li>
+              <li>Node.js</li>
+              <li>Bootstrap</li>
+              <li>Git</li>
+            </ul>
+          </div>
+    
+        </div>
+      </div>
+    </section>
+    
+
+  <hr class="section-divider">
+
+  <!-- Section for links to projects-->
+  <section id="projects" class="projects py-5">
+    <div class="container">
+      <h2 class="display-5 fw-bold text-center text-body-emphasis mb-5">My Projects</h2>
+      
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        
+        <!-- Project 1 -->
+        <div class="col">
+          <div class="card shadow-sm border-light rounded-3 project-card">
+            <div class="card-body text-center">
+              <h5 class="card-title">Persona Dating Web Application</h5>
+              <p class="card-text">A React-based dating website featuring MBTI compatibility matching and date idea suggestions. Google Firebase is integrated for secure user 
+                authentication and profile storage. Google Geolocation and Places APIs are used to recommend ideal venues for matched users.</p>
+              <a href="https://github.com/csci-499-sp23/team-5-sp23" target="_blank" class="btn btn-outline-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Project 2 -->
+        <div class="col">
+          <div class="card shadow-sm border-light rounded-3 project-card">
+            <div class="card-body text-center">
+              <h5 class="card-title">Weather Web Application</h5>
+              <p class="card-text">A weather website that is created using React and JavaScript and that also uses OpenWeatherMap and Web Geolocation APIs for location-based forecasts. 
+                A LRU cache is implemented to reduce latency for frequently searched weather data.</p>
+              <a href="https://github.com/mike787k/Weather-Website.git" target="_blank" class="btn btn-outline-info">View Project</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Project 3 -->
+        <div class="col">
+          <div class="card shadow-sm border-light rounded-3 project-card">
+            <div class="card-body text-center">
+              <h5 class="card-title">Hexadecimal Calculator</h5>
+              <p class="card-text">A hexadecimal calculator that features functional buttons categorized by numeric, operator, 
+                and alphabetic values.</p>
+              <a href=" https://github.com/mike787k/Hexadecimal-Calculator-.git" target="_blank" class="btn btn-outline-success">View Project</a>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>  
+   
+   <hr class="section-divider">
+
+  <!-- Section for link to resume-->
+  <section id="resume" class="resume py-5">
+    <div class="container text-center">
+      <h2 class="display-5 fw-bold text-body-emphasis mb-4">My Resume</h2>
+      <p class="lead mb-4">Click below to view my resume!</p>
+      <a href="path/to/your/resume.pdf" class="btn btn-outline-primary btn-lg" target="_blank">View Resume</a>
+    </div>
+  </section>  
+
+   <hr class="section-divider">
+
+   <!-- Section for contact me-->
+   <section id="contact" class="contact py-5 mb-4">
+    <div class="container text-center">
+      <h2 class="display-5 fw-bold text-body-emphasis mb-4">Contact Me</h2>
+      <p class="lead mb-4">Feel free to reach out to me through LinkedIn!</p>
+      <a href="https://www.linkedin.com/in/michaelkjkkim/" class="btn btn-outline-primary btn-lg" target="_blank">My LinkedIn</a>
+    </div>
+  </section>
+
+    <!-- Section for footer-->
+    <section id="footer" class="footer py-5">
+      <div class="container text-center">
+        <div class="d-flex justify-content-center mb-3">
+          <a href="https://github.com/mike787k" target="_blank" class="footer-link mx-3">
+            GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/michaelkjkkim/" target="_blank" class="footer-link mx-3">
+            LinkedIn
+          </a>
+        </div>
+        <p class="text-muted">© 2025 Michael Kim. All rights reserved.</p>
+      </div>
+    </section>
+</body>
+</html>
